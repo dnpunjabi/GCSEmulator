@@ -1,0 +1,1 @@
+docker run -d -e PORT=9023 -p 9023:9023 --name gcp-storage-emulator -v "C:\Users\dheer\cloudstorage":/storage oittaa/gcp-storage-emulator
